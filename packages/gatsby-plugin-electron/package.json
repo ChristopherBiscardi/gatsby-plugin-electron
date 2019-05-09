@@ -1,0 +1,12 @@
+{
+  "name": "gatsby-plugin-electron",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Chris Biscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^4.1.1",
+    "recursive-readdir": "^2.2.2",
+    "replace-in-file": "^3.4.4"
+  }
+}

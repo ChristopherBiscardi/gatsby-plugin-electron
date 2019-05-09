@@ -1,0 +1,17 @@
+{
+  "name": "electron-app-example",
+  "version": "0.0.1",
+  "main": "main/index.js",
+  "author": "Chris Biscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "develop:main": "electron /Users/biscarch/tmp/gatsby-electron-thing/packages/gatsby-plugin-electron/gatsby-electron-main-entry.js"
+  },
+  "dependencies": {
+    "gatsby": "^2.3.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}

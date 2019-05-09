@@ -1,7 +1,11 @@
 {
   "name": "gatsby-electron-thing",
+  "private": true,
   "version": "0.0.1",
   "main": "index.js",
   "author": "Chris Biscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
 }
